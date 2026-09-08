@@ -33,8 +33,6 @@ Chinese usage: say “开启 Tern” or “开启代理调度” to enable it, a
 
 ## Website
 
-[Open the website preview](https://tern-dispatch.tallcrawly.chatgpt.site) (owner access).
-
 The product website lives in [`website/`](website/). Run `npm ci` and `npm run dev` there to start it locally. Its interactive token examples are hypothetical, not benchmarks.
 
 ## Benchmarking
