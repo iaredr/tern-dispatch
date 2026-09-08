@@ -1,0 +1,34 @@
+{
+  "name": "tern-dispatch",
+  "version": "0.1.0",
+  "description": "Lightweight Luna delegation for Codex. Deliberate routing, bounded context, checked results.",
+  "author": {
+    "name": "Tern contributors",
+    "url": "https://github.com/iaredr/tern-dispatch"
+  },
+  "repository": "https://github.com/iaredr/tern-dispatch",
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "dispatch",
+    "delegation",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Tern",
+    "shortDescription": "Dispatch focused work and review the result",
+    "longDescription": "A lightweight Codex skill for deciding when to delegate work to available sub-agents, choosing a suitable model and reasoning effort, and keeping final acceptance with the main agent.",
+    "developerName": "Tern contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Instructions"
+    ],
+    "defaultPrompt": [
+      "Use $tern-dispatch to enable focused sub-agent dispatch in this task."
+    ],
+    "brandColor": "#c2db69",
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

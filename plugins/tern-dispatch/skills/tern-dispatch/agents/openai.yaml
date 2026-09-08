@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tern"
+  short_description: "Dispatch focused work and review the result"
+  default_prompt: "Use $tern-dispatch to enable focused sub-agent dispatch in this task."

@@ -1,0 +1,20 @@
+{
+  "name": "tern-dispatch",
+  "interface": {
+    "displayName": "Tern"
+  },
+  "plugins": [
+    {
+      "name": "tern-dispatch",
+      "source": {
+        "source": "local",
+        "path": "./plugins/tern-dispatch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
