@@ -33,7 +33,9 @@ Chinese usage: say “开启 Tern” or “开启代理调度” to enable it, a
 
 ## Website
 
-The product website lives in [`website/`](website/). Run `npm ci` and `npm run dev` there to start it locally. Its interactive token examples are hypothetical, not benchmarks.
+[Visit the website](https://iaredr.github.io/tern-dispatch/).
+
+The source lives in [`website/`](website/). Run `npm ci` and `npm run dev` there to start it locally. `npm run build` exports the static site to `dist/client/`. GitHub Actions publishes website changes on `main` to GitHub Pages. Its interactive token examples are hypothetical, not benchmarks.
 
 ## Benchmarking
 

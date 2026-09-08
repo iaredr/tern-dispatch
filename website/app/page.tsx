@@ -1,5 +1,7 @@
 import { Flightboard, TokenCalculator, Install } from './tern-interactive';
 
+export const dynamic = 'force-static';
+
 export default function Home() {
   return (
     <main id="top">
@@ -8,7 +10,7 @@ export default function Home() {
       </a>
       <header className="shell nav">
         <a className="wordmark" href="#top">
-          <img src="/tern.png" alt="" width="42" height="42" />
+          <img src="/tern-dispatch/tern.png" alt="" width="42" height="42" />
           tern<span className="brand-dot">↗</span>
         </a>
         <nav aria-label={'Main navigation'}>
@@ -191,7 +193,7 @@ export default function Home() {
             {'One small skill for the way you work.'}
           </p>
           <div className="license-lockup">
-            <img src="/tern.png" width="64" height="64" alt="" />
+            <img src="/tern-dispatch/tern.png" width="64" height="64" alt="" />
             <div>
               <strong>Tern</strong>
               <span>{'MIT licensed \u00b7 Made for Codex'}</span>
@@ -202,7 +204,7 @@ export default function Home() {
       </section>
       <footer className="shell footer">
         <a href="#top" className="wordmark">
-          <img src="/tern.png" alt="" width="42" height="42" />
+          <img src="/tern-dispatch/tern.png" alt="" width="42" height="42" />
           tern<span className="brand-dot">↗</span>
         </a>
         <p>{'Give every task the right wings.'}</p>

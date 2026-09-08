@@ -1,6 +1,20 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/tern-dispatch/fonts/geist-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Geist Mono';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/tern-dispatch/fonts/geist-mono-latin.woff2') format('woff2');
+}
 @custom-variant dark (&:is(.dark *));
 @theme inline {
   --color-background: var(--background);
@@ -14,6 +28,8 @@
 }
 :root,
 .dark {
+  --font-geist-sans: 'Geist';
+  --font-geist-mono: 'Geist Mono';
   --background: #151914;
   --foreground: #f0f2e9;
   --primary: #c2db69;

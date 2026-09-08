@@ -44,7 +44,7 @@ export function Flightboard() {
         <div className="orbit orbit-two" />
         <img
           className="tern-art"
-          src="/tern.png"
+          src="/tern-dispatch/tern.png"
           alt={'Tern seabird mark with open wings and a forked tail'}
           width="1280"
           height="1280"
