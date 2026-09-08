@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Tern — Big ideas. Lighter wings.',
   description:
-    'Tern 是一个轻量开源的 Codex 代理调度技能。你负责想法，主 AI 选择 Luna 的推理强度并检查交付。',
+    'Tern is a lightweight open-source Codex skill. Your main AI chooses when to delegate to Luna, sets the reasoning effort, and checks the results.',
   icons: { icon: '/tern.png' },
 };
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
