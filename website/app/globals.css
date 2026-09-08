@@ -1170,7 +1170,7 @@ input:focus-visible {
   font-size: 10px;
 }
 
-/* English-first navigation and dark surfaces. */
+/* Navigation and dark surfaces. */
 :root,
 .dark {
   --background: #080a08;
@@ -1183,28 +1183,6 @@ input:focus-visible {
 }
 .nav nav {
   margin-left: auto;
-}
-.language-switch {
-  display: flex;
-  align-items: center;
-  padding: 3px;
-  gap: 2px;
-  border: 1px solid #3a4134;
-  border-radius: 6px;
-  flex-shrink: 0;
-}
-.language-switch button {
-  border: 0;
-  background: transparent;
-  color: #b6bdae;
-  padding: 8px 10px;
-  min-height: 34px;
-  border-radius: 3px;
-  font-size: 12px;
-}
-.language-switch button[aria-pressed='true'] {
-  background: #c2db69;
-  color: #151914;
 }
 .hero-actions,
 .scenario-buttons {
@@ -1325,9 +1303,6 @@ input:focus-visible {
     gap: 10px;
     font-size: 12px;
   }
-  .language-switch button {
-    padding: 7px 8px;
-  }
   .wordmark {
     font-size: 31px;
   }
@@ -1343,13 +1318,5 @@ input:focus-visible {
   }
   .install-step > div {
     min-width: 145px;
-  }
-}
-@media (max-width: 380px) {
-  .nav > .button-small {
-    display: none;
-  }
-  .language-switch {
-    margin-left: auto;
   }
 }
